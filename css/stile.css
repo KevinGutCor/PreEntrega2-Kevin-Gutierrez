@@ -1,0 +1,31 @@
+body {
+	background-color: #f4f4f4;
+	color: white;
+	text-align: center;
+	font-family: "Roboto", sans-serif;
+}
+.skewed {
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	right: 0;
+	left: 0;
+	width: 100%;
+	height: 60%;
+	background: #089738;
+	z-index: 0;
+	transform: skewY(6deg);
+	transform-origin: top right;
+}
+
+h1 {
+	position: relative;
+	top: 3rem;
+	font-size: 3.5rem;
+}
+p {
+	position: relative;
+	top: 2rem;
+	font-size: 2rem;
+	font-weight: 550;
+}
